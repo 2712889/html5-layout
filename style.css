@@ -1,0 +1,95 @@
+/* 第一次随堂任务 —— 万物互联 极致体验 */
+
+/* 标题使用的书法字体（来自素材 fonts/书法.ttf） */
+@font-face {
+    font-family: "shufa";
+    src: url("fonts/书法.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    color: #000;
+    font-family: "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+.wrapper {
+    width: 1240px;
+    margin: 0 auto;
+    padding: 68px 0 24px;
+    text-align: center;
+}
+
+/* 标题：万物互联 极致体验 */
+.title {
+    font-family: "shufa", "Microsoft YaHei", sans-serif;
+    font-size: 51px;
+    font-weight: normal;
+    line-height: 1;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.35);
+    margin-bottom: 79px;
+}
+
+/* 两栏文字区 */
+.content {
+    overflow: hidden;
+}
+
+.column {
+    float: left;
+    width: 596px;
+}
+
+.column + .column {
+    margin-left: 48px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.desc {
+    margin-top: 5px;
+    font-size: 20px;
+    line-height: 46px;
+    text-align: center;
+}
+
+/* 平台支持标题 */
+.subtitle {
+    clear: both;
+    margin-top: 79px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+/* 平台支持列表 */
+.platform {
+    margin-top: 33px;
+    list-style: none;
+    overflow: hidden;
+}
+
+.platform li {
+    float: left;
+    width: 310px;
+}
+
+.platform li img {
+    display: block;
+    margin: 0 auto;
+}
+
+.platform li p {
+    margin-top: 63px;
+    font-size: 16px;
+    font-weight: bold;
+}
